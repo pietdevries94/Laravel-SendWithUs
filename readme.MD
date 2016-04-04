@@ -1,6 +1,8 @@
 Laravel SendWithUs
 ===============
 
+A package to use [sendwithus_php](https://github.com/sendwithus/sendwithus_php) with [Laravel 5](https://laravel.com)
+
 This repository is derived from [Laravel-Dropbox by Graham Campbell](https://github.com/GrahamCampbell/Laravel-Dropbox)
 
 ## Installation
@@ -10,7 +12,7 @@ Checkout the repository to a folder and manually update your require block:
 ```json
 {
     "require": {
-        "compenda/sendwithus": "^3.0"
+        "compenda/sendwithus": "^0.1.0"
     }
 }
 ```
