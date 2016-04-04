@@ -1,0 +1,38 @@
+{
+    "name": "compenda/sendwithus",
+    "description": "SendWithUs Is A SendWithUs Bridge For Laravel 5",
+    "keywords": ["laravel", "framework", "dropbox", "files", "api", "sendwithus bridge", "bridge", "SendWithUs", "Laravel SendWithUs", "Laravel-SendWithUs", "Compenda", "Piet de Vries"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piet de Vries",
+            "email": "piet@compenda.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "5.1.*|5.2.*",
+        "illuminate/support": "5.1.*|5.2.*",
+        "graham-campbell/manager": "^2.3",
+        "sendwithus/api": "^2.12.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Compenda\\SendWithUs\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
