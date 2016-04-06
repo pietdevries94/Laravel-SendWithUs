@@ -7,7 +7,15 @@ This repository is derived from [Laravel-Dropbox by Graham Campbell](https://git
 
 ## Installation
 
-Checkout the repository to a folder and manually update your require block:
+Either [PHP](https://php.net/) 5.5+ or [HHVM](http://hhvm.com/) 3.6+ are required.
+
+To get the latest version of Laravel Dropbox, simply require the project using [Composer](https://getcomposer.org/):
+
+```
+$ composer require graham-campbell/dropbox
+```
+
+Instead, you may of course manually update your require block and run composer update if you so choose:
 
 ```json
 {
@@ -16,7 +24,6 @@ Checkout the repository to a folder and manually update your require block:
     }
 }
 ```
-Append the following to the end of the composer file (before the closing `}`):
 
 Once Laravel SendWithUs is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
