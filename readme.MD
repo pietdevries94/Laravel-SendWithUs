@@ -9,10 +9,10 @@ This repository is derived from [Laravel-Dropbox by Graham Campbell](https://git
 
 Either [PHP](https://php.net/) 5.5+ or [HHVM](http://hhvm.com/) 3.6+ are required.
 
-To get the latest version of Laravel Dropbox, simply require the project using [Composer](https://getcomposer.org/):
+To get the latest version of Laravel SendWithUs, simply require the project using [Composer](https://getcomposer.org/):
 
 ```
-$ composer require graham-campbell/dropbox
+$ composer require compenda/sendwithus
 ```
 
 Instead, you may of course manually update your require block and run composer update if you so choose:
@@ -127,7 +127,7 @@ class Foo
 {
     protected $sendwithus;
 
-    public function __construct(SendWithUsManager $dropbox)
+    public function __construct(SendWithUsManager $sendwithus)
     {
         $this->sendwithus = $sendwithus;
     }
